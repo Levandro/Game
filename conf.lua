@@ -11,7 +11,7 @@ function love.conf(t)
 	t.modules.thread = true
     t.modules.physics = true    -- Enable the physics module (boolean)
     t.console = true           -- Attach a console (boolean, Windows only)
-    t.title = "Example Game"        -- The title of the window the game is in (string) 
+    t.title = "MMRS"        -- The title of the window the game is in (string) 
     t.author = "LO"        -- The author of the game (string)
     t.window.fullscreen = False -- Enable fullscreen (boolean)
     t.window.vsync = false       -- Enable vertical sync (boolean)
