@@ -11,9 +11,9 @@ function love.load()
 end
 
 function love.draw()
-  love.graphics.setColor(255,1,1)
+  ---love.graphics.setColor(255,1,1)
   ---love.graphics.rectangle("fill",box.x,box.y,box.w,box.h)
-  love.graphics.setColor( 103,164,21,255)
+  ---love.graphics.setColor( 103,164,21,255)
   love.graphics.draw(ImagePetr,box.x,box.y,0,1,1,0,0)
   
   
