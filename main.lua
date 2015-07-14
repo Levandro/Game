@@ -7,11 +7,16 @@ function love.load()
   box.h = 50
   box.speed =200
   box.direction = 1
+  ImagePetr = love.graphics.newImage("textures/Petr.png")
 end
 
 function love.draw()
   love.graphics.setColor(255,1,1)
-  love.graphics.rectangle("fill",box.x,box.y,box.w,box.h)
+  ---love.graphics.rectangle("fill",box.x,box.y,box.w,box.h)
+  love.graphics.setColor( 103,164,21,255)
+  love.graphics.draw(ImagePetr,box.x,box.y,0,1,1,0,0)
+  
+  
 end
 
     
